@@ -4,6 +4,11 @@
   margin: 0;
 }
 
+#pontos {
+    display: none;
+}
+
+
 body{
     display: flex;
     flex-direction: column;
@@ -29,10 +34,7 @@ h2{
     margin-bottom: 50px;
 }
 
-
 canvas{
     display: none;
-    height: 600px;
-    width: 600px;
     background-color: darkgray;
 }
