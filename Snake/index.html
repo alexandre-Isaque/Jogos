@@ -7,6 +7,7 @@
         <title>game</title>
     </head>
     <body>
+        <!-- Primeiro layout -->
         <div id="game">
             <div id="text">
                 <h2>Snake</h2>
@@ -17,11 +18,19 @@
             </div>
         </div>
 
-        <h2 id="pontos"></h2>
-        <!-- canvas do snake -->
+        <!-- cores -->
+        <div id="colors">
+            <button id="amarelo" style="background-color: yellow;">amarelo</button>
+            <button id="vermelho" style="background-color: red;">vermelho</button>
+            <button id="rosa" style="background-color: pink;">rosa</button>
+            <button id="azul" style="background-color: blue;">azul</button>
+            <button id="violeta" style="background-color: violet;">violeta</button>
+        </div>
+
+        <button type="submit" id="color"></button>
+
+        <!-- Canvas e script -->
         <canvas id="canvas"></canvas>
-
-
         <script src="./main.js" defer></script>
     </body>
 </html>

@@ -4,11 +4,6 @@
   margin: 0;
 }
 
-#pontos {
-    display: none;
-}
-
-
 body{
     display: flex;
     flex-direction: column;
@@ -38,3 +33,29 @@ canvas{
     display: none;
     background-color: darkgray;
 }
+
+#color {
+    display: none;
+}
+
+
+#colors {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#colors button {
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
